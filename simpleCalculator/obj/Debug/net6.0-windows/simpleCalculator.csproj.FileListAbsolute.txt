@@ -1,0 +1,17 @@
+D:\Rohit Stuff\ANV\C# Programming\simpleCalculator\bin\Debug\net6.0-windows\simpleCalculator.exe
+D:\Rohit Stuff\ANV\C# Programming\simpleCalculator\bin\Debug\net6.0-windows\simpleCalculator.deps.json
+D:\Rohit Stuff\ANV\C# Programming\simpleCalculator\bin\Debug\net6.0-windows\simpleCalculator.runtimeconfig.json
+D:\Rohit Stuff\ANV\C# Programming\simpleCalculator\bin\Debug\net6.0-windows\simpleCalculator.dll
+D:\Rohit Stuff\ANV\C# Programming\simpleCalculator\bin\Debug\net6.0-windows\simpleCalculator.pdb
+D:\Rohit Stuff\ANV\C# Programming\simpleCalculator\obj\Debug\net6.0-windows\simpleCalculator.csproj.AssemblyReference.cache
+D:\Rohit Stuff\ANV\C# Programming\simpleCalculator\obj\Debug\net6.0-windows\simpleCalculator.Form1.resources
+D:\Rohit Stuff\ANV\C# Programming\simpleCalculator\obj\Debug\net6.0-windows\simpleCalculator.csproj.GenerateResource.cache
+D:\Rohit Stuff\ANV\C# Programming\simpleCalculator\obj\Debug\net6.0-windows\simpleCalculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rohit Stuff\ANV\C# Programming\simpleCalculator\obj\Debug\net6.0-windows\simpleCalculator.AssemblyInfoInputs.cache
+D:\Rohit Stuff\ANV\C# Programming\simpleCalculator\obj\Debug\net6.0-windows\simpleCalculator.AssemblyInfo.cs
+D:\Rohit Stuff\ANV\C# Programming\simpleCalculator\obj\Debug\net6.0-windows\simpleCalculator.csproj.CoreCompileInputs.cache
+D:\Rohit Stuff\ANV\C# Programming\simpleCalculator\obj\Debug\net6.0-windows\simpleCalculator.dll
+D:\Rohit Stuff\ANV\C# Programming\simpleCalculator\obj\Debug\net6.0-windows\refint\simpleCalculator.dll
+D:\Rohit Stuff\ANV\C# Programming\simpleCalculator\obj\Debug\net6.0-windows\simpleCalculator.pdb
+D:\Rohit Stuff\ANV\C# Programming\simpleCalculator\obj\Debug\net6.0-windows\simpleCalculator.genruntimeconfig.cache
+D:\Rohit Stuff\ANV\C# Programming\simpleCalculator\obj\Debug\net6.0-windows\ref\simpleCalculator.dll

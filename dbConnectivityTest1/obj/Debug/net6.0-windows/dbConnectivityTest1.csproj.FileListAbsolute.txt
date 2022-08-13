@@ -1,0 +1,17 @@
+D:\Rohit Stuff\ANV\C# Programming\dbConnectivityTest1\bin\Debug\net6.0-windows\dbConnectivityTest1.exe
+D:\Rohit Stuff\ANV\C# Programming\dbConnectivityTest1\bin\Debug\net6.0-windows\dbConnectivityTest1.deps.json
+D:\Rohit Stuff\ANV\C# Programming\dbConnectivityTest1\bin\Debug\net6.0-windows\dbConnectivityTest1.runtimeconfig.json
+D:\Rohit Stuff\ANV\C# Programming\dbConnectivityTest1\bin\Debug\net6.0-windows\dbConnectivityTest1.dll
+D:\Rohit Stuff\ANV\C# Programming\dbConnectivityTest1\bin\Debug\net6.0-windows\dbConnectivityTest1.pdb
+D:\Rohit Stuff\ANV\C# Programming\dbConnectivityTest1\obj\Debug\net6.0-windows\dbConnectivityTest1.csproj.AssemblyReference.cache
+D:\Rohit Stuff\ANV\C# Programming\dbConnectivityTest1\obj\Debug\net6.0-windows\dbConnectivityTest1.Form1.resources
+D:\Rohit Stuff\ANV\C# Programming\dbConnectivityTest1\obj\Debug\net6.0-windows\dbConnectivityTest1.csproj.GenerateResource.cache
+D:\Rohit Stuff\ANV\C# Programming\dbConnectivityTest1\obj\Debug\net6.0-windows\dbConnectivityTest1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rohit Stuff\ANV\C# Programming\dbConnectivityTest1\obj\Debug\net6.0-windows\dbConnectivityTest1.AssemblyInfoInputs.cache
+D:\Rohit Stuff\ANV\C# Programming\dbConnectivityTest1\obj\Debug\net6.0-windows\dbConnectivityTest1.AssemblyInfo.cs
+D:\Rohit Stuff\ANV\C# Programming\dbConnectivityTest1\obj\Debug\net6.0-windows\dbConnectivityTest1.csproj.CoreCompileInputs.cache
+D:\Rohit Stuff\ANV\C# Programming\dbConnectivityTest1\obj\Debug\net6.0-windows\dbConnectivityTest1.dll
+D:\Rohit Stuff\ANV\C# Programming\dbConnectivityTest1\obj\Debug\net6.0-windows\refint\dbConnectivityTest1.dll
+D:\Rohit Stuff\ANV\C# Programming\dbConnectivityTest1\obj\Debug\net6.0-windows\dbConnectivityTest1.pdb
+D:\Rohit Stuff\ANV\C# Programming\dbConnectivityTest1\obj\Debug\net6.0-windows\dbConnectivityTest1.genruntimeconfig.cache
+D:\Rohit Stuff\ANV\C# Programming\dbConnectivityTest1\obj\Debug\net6.0-windows\ref\dbConnectivityTest1.dll

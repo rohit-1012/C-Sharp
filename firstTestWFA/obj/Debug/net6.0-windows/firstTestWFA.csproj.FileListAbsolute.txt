@@ -1,0 +1,17 @@
+D:\Rohit Stuff\ANV\C# Programming\firstTestWFA\obj\Debug\net6.0-windows\firstTestWFA.csproj.AssemblyReference.cache
+D:\Rohit Stuff\ANV\C# Programming\firstTestWFA\obj\Debug\net6.0-windows\firstTestWFA.Form1.resources
+D:\Rohit Stuff\ANV\C# Programming\firstTestWFA\obj\Debug\net6.0-windows\firstTestWFA.csproj.GenerateResource.cache
+D:\Rohit Stuff\ANV\C# Programming\firstTestWFA\obj\Debug\net6.0-windows\firstTestWFA.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rohit Stuff\ANV\C# Programming\firstTestWFA\obj\Debug\net6.0-windows\firstTestWFA.AssemblyInfoInputs.cache
+D:\Rohit Stuff\ANV\C# Programming\firstTestWFA\obj\Debug\net6.0-windows\firstTestWFA.AssemblyInfo.cs
+D:\Rohit Stuff\ANV\C# Programming\firstTestWFA\obj\Debug\net6.0-windows\firstTestWFA.csproj.CoreCompileInputs.cache
+D:\Rohit Stuff\ANV\C# Programming\firstTestWFA\bin\Debug\net6.0-windows\firstTestWFA.exe
+D:\Rohit Stuff\ANV\C# Programming\firstTestWFA\bin\Debug\net6.0-windows\firstTestWFA.deps.json
+D:\Rohit Stuff\ANV\C# Programming\firstTestWFA\bin\Debug\net6.0-windows\firstTestWFA.runtimeconfig.json
+D:\Rohit Stuff\ANV\C# Programming\firstTestWFA\bin\Debug\net6.0-windows\firstTestWFA.dll
+D:\Rohit Stuff\ANV\C# Programming\firstTestWFA\bin\Debug\net6.0-windows\firstTestWFA.pdb
+D:\Rohit Stuff\ANV\C# Programming\firstTestWFA\obj\Debug\net6.0-windows\firstTestWFA.dll
+D:\Rohit Stuff\ANV\C# Programming\firstTestWFA\obj\Debug\net6.0-windows\refint\firstTestWFA.dll
+D:\Rohit Stuff\ANV\C# Programming\firstTestWFA\obj\Debug\net6.0-windows\firstTestWFA.pdb
+D:\Rohit Stuff\ANV\C# Programming\firstTestWFA\obj\Debug\net6.0-windows\firstTestWFA.genruntimeconfig.cache
+D:\Rohit Stuff\ANV\C# Programming\firstTestWFA\obj\Debug\net6.0-windows\ref\firstTestWFA.dll
