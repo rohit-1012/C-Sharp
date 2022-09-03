@@ -1,3 +1,5 @@
+
+
 namespace dbConnectivityTest1
 {
     public partial class Form1 : Form
@@ -7,7 +9,7 @@ namespace dbConnectivityTest1
             InitializeComponent();
         }
 
-        private SQLConn sqlDB = new SQLConn();
+        public SQLConn sqlDB = new SQLConn();
 
         private void enterNametextBox_Click(object sender, EventArgs e)
         {
