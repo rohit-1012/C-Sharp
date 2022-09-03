@@ -40,8 +40,8 @@
             this.contactNoLabel = new System.Windows.Forms.Label();
             this.fullNameTextBox = new System.Windows.Forms.TextBox();
             this.fullNameLabel = new System.Windows.Forms.Label();
+            this.enterNametextBox = new System.Windows.Forms.TextBox();
             this.dataDispTextBox = new System.Windows.Forms.TextBox();
-            this.selectNameComboBox = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -70,8 +70,8 @@
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.Controls.Add(this.enterNametextBox);
             this.splitContainer1.Panel2.Controls.Add(this.dataDispTextBox);
-            this.splitContainer1.Panel2.Controls.Add(this.selectNameComboBox);
             this.splitContainer1.Size = new System.Drawing.Size(699, 269);
             this.splitContainer1.SplitterDistance = 309;
             this.splitContainer1.TabIndex = 0;
@@ -85,6 +85,7 @@
             this.submitButton.TabIndex = 3;
             this.submitButton.Text = "SUBMIT";
             this.submitButton.UseVisualStyleBackColor = true;
+            this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
             // 
             // dobDateTimePicker
             // 
@@ -175,6 +176,15 @@
             this.fullNameLabel.TabIndex = 0;
             this.fullNameLabel.Text = "Name: ";
             // 
+            // enterNametextBox
+            // 
+            this.enterNametextBox.Location = new System.Drawing.Point(12, 18);
+            this.enterNametextBox.Name = "enterNametextBox";
+            this.enterNametextBox.Size = new System.Drawing.Size(362, 23);
+            this.enterNametextBox.TabIndex = 2;
+            this.enterNametextBox.Text = "Enter a Name";
+            this.enterNametextBox.Click += new System.EventHandler(this.enterNametextBox_Click);
+            // 
             // dataDispTextBox
             // 
             this.dataDispTextBox.BackColor = System.Drawing.SystemColors.MenuBar;
@@ -184,16 +194,6 @@
             this.dataDispTextBox.Name = "dataDispTextBox";
             this.dataDispTextBox.Size = new System.Drawing.Size(362, 206);
             this.dataDispTextBox.TabIndex = 1;
-            // 
-            // selectNameComboBox
-            // 
-            this.selectNameComboBox.Font = new System.Drawing.Font("Helvetica", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.selectNameComboBox.FormattingEnabled = true;
-            this.selectNameComboBox.Location = new System.Drawing.Point(12, 18);
-            this.selectNameComboBox.Name = "selectNameComboBox";
-            this.selectNameComboBox.Size = new System.Drawing.Size(362, 23);
-            this.selectNameComboBox.TabIndex = 0;
-            this.selectNameComboBox.Text = "Select Name";
             // 
             // Form1
             // 
@@ -228,6 +228,6 @@
         private TextBox contactTextBox;
         private Label contactNoLabel;
         private TextBox dataDispTextBox;
-        private ComboBox selectNameComboBox;
+        private TextBox enterNametextBox;
     }
 }
