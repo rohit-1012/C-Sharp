@@ -16,7 +16,7 @@ namespace dbConnectivityTest1
         public int recordCount;
         public SQLConn()
         {
-            _connectionString = "Server=ROHIT-LAPTOP\\SQLEXPRESS;Database=practiceTest;User Id=practiceTestSA;Password=practiceDB@1012;";
+            _connectionString = "Server=ROHIT-LAPTOP\\SQLEXPRESS;Database=practiceTest;User Id=practiceTestSA;Password=practiceDB@1012;Encrypt=False";
             _paramList = new List<SqlParameter>();
         }
 

@@ -42,9 +42,15 @@ namespace dbConnectivityTest1
             {
                 MessageBox.Show("Please enter a valid E-mail!", "Caption", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation);
             }
-            MessageBox.Show(dobDateTimePicker.Text);
-            MessageBox.Show(Convert.ToString(sqlDB.recordCount));
-            MessageBox.Show(sqlDB.excptnShow);
+            //MessageBox.Show(dobDateTimePicker.Text);
+            //MessageBox.Show(Convert.ToString(sqlDB.recordCount));
+            //MessageBox.Show(sqlDB.excptnShow);
+            MessageBox.Show("Data Entered Successfully","Success",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            fullNameTextBox.Clear();
+            contactTextBox.Clear();
+            ageTextBox.Clear();
+            emailTextBox.Clear();
+            dobDateTimePicker.ResetText();
         }
 
         public void InsVal()
