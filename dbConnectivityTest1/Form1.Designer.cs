@@ -89,10 +89,12 @@
             // 
             // dobDateTimePicker
             // 
+            this.dobDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dobDateTimePicker.Location = new System.Drawing.Point(93, 117);
             this.dobDateTimePicker.Name = "dobDateTimePicker";
             this.dobDateTimePicker.Size = new System.Drawing.Size(210, 23);
             this.dobDateTimePicker.TabIndex = 2;
+            this.dobDateTimePicker.Value = new System.DateTime(2022, 9, 4, 22, 42, 3, 0);
             // 
             // ageLabel
             // 
@@ -203,6 +205,7 @@
             this.Controls.Add(this.splitContainer1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);

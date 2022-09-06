@@ -10,43 +10,45 @@ namespace dbConnectivityTest1
 {
     public class SQLConn
     {
-        public static void Main1(string[] args)
+        private readonly string _connectionString;
+        private List<SqlParameter> _paramList;
+        public string excptnShow;
+        public int recordCount;
+        public SQLConn()
         {
-            using (SqlConnection connString = new SqlConnection("Server=ROHIT-LAPTOP\\SQLEXPRESS;Database=practiceTest;User Id=practiceTestSA;\r\nPassword=practiceDB@1012;"))
+            _connectionString = "Server=ROHIT-LAPTOP\\SQLEXPRESS;Database=practiceTest;User Id=practiceTestSA;Password=practiceDB@1012;";
+            _paramList = new List<SqlParameter>();
+        }
+
+        public void AddParams(string tableName, object insVal)
+        {
+            SqlParameter sqlparams = new SqlParameter(tableName, insVal);
+            _paramList.Add(sqlparams);
+        }
+
+        public void sqlQueryCmd(string sqlQuery)
+        {
+            using (var sqlConn = new SqlConnection(_connectionString))
             {
-                List<SqlParameter> paramList = new List<SqlParameter>();
-                string AddParams(string tableName, object insVal)
+                try
                 {
-                    SqlParameter sqlparams = new SqlParameter(tableName, insVal);
-                    paramList.Add(sqlparams);
+                    sqlConn.Open();
+                    SqlCommand sqlCmd = new SqlCommand(sqlQuery, sqlConn);
+                    _paramList.ForEach(p => { sqlCmd.Parameters.Add(p); });
+                    _paramList.Clear();
+                    DataTable sqlDT = new DataTable();
+                    SqlDataAdapter sqlDA = new SqlDataAdapter(sqlCmd);
+                    recordCount = sqlDA.Fill(sqlDT);
                 }
-                SqlCommand sqlCmd = new SqlCommand();
-
-                string sqlQueryCmd(string sqlQuery)
+                catch (Exception ex)
                 {
-                    int recordCount = 0;
-                    string excptnShow = "";
-
-                    try
+                    excptnShow = "Error: \r\n" + ex.Message;
+                }
+                finally
+                {
+                    if (sqlConn.State == ConnectionState.Open)
                     {
-                        connString.Open();
-                        SqlCommand sqlCmd = new SqlCommand(sqlQuery, connString);
-                        paramList.ForEach(p => { sqlCmd.Parameters.Add(p); });
-                        paramList.Clear();
-                        DataTable sqlDT = new DataTable();
-                        SqlDataAdapter sqlDA = new SqlDataAdapter(sqlCmd);
-                        recordCount = sqlDA.Fill(sqlDT);
-                    }
-                    catch(Exception ex)
-                    {
-                        excptnShow = "Error: \r\n" + ex.Message;
-                    }
-                    finally
-                    {
-                        if (connString.State == ConnectionState.Open)
-                        {
-                            connString.Close();
-                        }
+                        sqlConn.Close();
                     }
                 }
             }

@@ -16,9 +16,12 @@ namespace dbConnectivityTest1
             enterNametextBox.Clear();
         }
 
+        
+
         private void submitButton_Click(object sender, EventArgs e)
         {
-            while(fullNameTextBox.Text.Length <= 0)
+            InsVal();
+            while (fullNameTextBox.Text.Length <= 0)
             {
                 MessageBox.Show("Please enter your Full Name!", "Caption", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation);
             }
@@ -39,12 +42,25 @@ namespace dbConnectivityTest1
             {
                 MessageBox.Show("Please enter a valid E-mail!", "Caption", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation);
             }
-            InsVal();
+            MessageBox.Show(dobDateTimePicker.Text);
+            MessageBox.Show(Convert.ToString(sqlDB.recordCount));
+            MessageBox.Show(sqlDB.excptnShow);
         }
 
         public void InsVal()
         {
-            
+            sqlDB.AddParams("@fullNameValue", fullNameTextBox.Text);
+            sqlDB.AddParams("@contactNumberValue", contactTextBox.Text);
+            sqlDB.AddParams("@ageValue", ageTextBox.Text);
+            sqlDB.AddParams("@birthDateValue", dobDateTimePicker.Text);
+            sqlDB.AddParams("@emailValue", emailTextBox.Text);
+            sqlDB.sqlQueryCmd("INSERT INTO userDataTest(user_Name,user_Number,user_Age,user_Email,user_DOB) VALUES (@fullNameValue,@contactNumberValue,@ageValue,@emailValue,@birthDateValue);");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            dobDateTimePicker.Format = DateTimePickerFormat.Custom;
+            dobDateTimePicker.CustomFormat = "yyyy-MM-dd";
         }
     }
 }
