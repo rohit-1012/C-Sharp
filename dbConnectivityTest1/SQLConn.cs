@@ -14,6 +14,9 @@ namespace dbConnectivityTest1
         private List<SqlParameter> _paramList;
         public string excptnShow;
         public int recordCount;
+        public DataTable sqlDT = new DataTable();
+        
+        public SqlDataReader sqlDR;
         public SQLConn()
         {
             _connectionString = "Server=ROHIT-LAPTOP\\SQLEXPRESS;Database=practiceTest;User Id=practiceTestSA;Password=practiceDB@1012;Encrypt=False";
@@ -36,9 +39,13 @@ namespace dbConnectivityTest1
                     SqlCommand sqlCmd = new SqlCommand(sqlQuery, sqlConn);
                     _paramList.ForEach(p => { sqlCmd.Parameters.Add(p); });
                     _paramList.Clear();
-                    DataTable sqlDT = new DataTable();
-                    SqlDataAdapter sqlDA = new SqlDataAdapter(sqlCmd);
-                    recordCount = sqlDA.Fill(sqlDT);
+                        DataSet oDs = new DataSet();
+                        SqlDataAdapter sqlDA = new SqlDataAdapter(sqlCmd);
+                    sqlDA.Fill(oDs);
+                    //sqlDR = sqlCmd.ExecuteReader();
+                    //sqlDA.Fill(oDs);
+                    sqlDT = oDs.Tables[0]; 
+
                 }
                 catch (Exception ex)
                 {

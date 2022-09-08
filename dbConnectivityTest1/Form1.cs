@@ -1,4 +1,4 @@
-
+using System.Data;
 
 namespace dbConnectivityTest1
 {
@@ -13,6 +13,7 @@ namespace dbConnectivityTest1
 
         private void enterNametextBox_Click(object sender, EventArgs e)
         {
+            sqlDB.sqlQueryCmd("SELECT user_Name FROM userDataTest");
             enterNametextBox.Clear();
         }
 
@@ -67,6 +68,18 @@ namespace dbConnectivityTest1
         {
             dobDateTimePicker.Format = DateTimePickerFormat.Custom;
             dobDateTimePicker.CustomFormat = "yyyy-MM-dd";
+        }
+
+        private void enterNametextBox_TextChanged(object sender, EventArgs e)
+        {
+            enterNametextBox.AutoCompleteSource = AutoCompleteSource.CustomSource;
+            enterNametextBox.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            AutoCompleteStringCollection userName = new AutoCompleteStringCollection();
+            foreach(DataRow odr in sqlDB.sqlDT.Rows)
+            {
+                userName.Add(odr["user_Name"].ToString());
+            }
+            enterNametextBox.AutoCompleteCustomSource = userName;
         }
     }
 }

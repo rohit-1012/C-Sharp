@@ -186,6 +186,7 @@
             this.enterNametextBox.TabIndex = 2;
             this.enterNametextBox.Text = "Enter a Name";
             this.enterNametextBox.Click += new System.EventHandler(this.enterNametextBox_Click);
+            this.enterNametextBox.TextChanged += new System.EventHandler(this.enterNametextBox_TextChanged);
             // 
             // dataDispTextBox
             // 
