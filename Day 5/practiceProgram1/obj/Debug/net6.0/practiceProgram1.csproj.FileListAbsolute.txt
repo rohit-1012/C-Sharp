@@ -1,0 +1,15 @@
+D:\Rohit Stuff\Rohit Stuff\C# Practice\Day 5\practiceProgram1\bin\Debug\net6.0\practiceProgram1.exe
+D:\Rohit Stuff\Rohit Stuff\C# Practice\Day 5\practiceProgram1\bin\Debug\net6.0\practiceProgram1.deps.json
+D:\Rohit Stuff\Rohit Stuff\C# Practice\Day 5\practiceProgram1\bin\Debug\net6.0\practiceProgram1.runtimeconfig.json
+D:\Rohit Stuff\Rohit Stuff\C# Practice\Day 5\practiceProgram1\bin\Debug\net6.0\practiceProgram1.dll
+D:\Rohit Stuff\Rohit Stuff\C# Practice\Day 5\practiceProgram1\bin\Debug\net6.0\practiceProgram1.pdb
+D:\Rohit Stuff\Rohit Stuff\C# Practice\Day 5\practiceProgram1\obj\Debug\net6.0\practiceProgram1.csproj.AssemblyReference.cache
+D:\Rohit Stuff\Rohit Stuff\C# Practice\Day 5\practiceProgram1\obj\Debug\net6.0\practiceProgram1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rohit Stuff\Rohit Stuff\C# Practice\Day 5\practiceProgram1\obj\Debug\net6.0\practiceProgram1.AssemblyInfoInputs.cache
+D:\Rohit Stuff\Rohit Stuff\C# Practice\Day 5\practiceProgram1\obj\Debug\net6.0\practiceProgram1.AssemblyInfo.cs
+D:\Rohit Stuff\Rohit Stuff\C# Practice\Day 5\practiceProgram1\obj\Debug\net6.0\practiceProgram1.csproj.CoreCompileInputs.cache
+D:\Rohit Stuff\Rohit Stuff\C# Practice\Day 5\practiceProgram1\obj\Debug\net6.0\practiceProgram1.dll
+D:\Rohit Stuff\Rohit Stuff\C# Practice\Day 5\practiceProgram1\obj\Debug\net6.0\refint\practiceProgram1.dll
+D:\Rohit Stuff\Rohit Stuff\C# Practice\Day 5\practiceProgram1\obj\Debug\net6.0\practiceProgram1.pdb
+D:\Rohit Stuff\Rohit Stuff\C# Practice\Day 5\practiceProgram1\obj\Debug\net6.0\practiceProgram1.genruntimeconfig.cache
+D:\Rohit Stuff\Rohit Stuff\C# Practice\Day 5\practiceProgram1\obj\Debug\net6.0\ref\practiceProgram1.dll
